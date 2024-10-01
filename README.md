@@ -1,4 +1,6 @@
-# SOLID principles and clean code
+# Clean code course
+
+SOLID principles are the following:
 
 - `S` – Single Responsibility Principle (SRP)
 - `O` – Open/Closed Principle (OCP)
