@@ -1,0 +1,13 @@
+{
+  "name": "solid-clean-course",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
