@@ -18,7 +18,7 @@ npm run start <FILE_PATH>
 
 ## Information
 
-SOLID principles are the following:
+### S.O.L.I.D. principles
 
 - `S` – Single Responsibility Principle (SRP)
 - `O` – Open/Closed Principle (OCP)
@@ -26,7 +26,7 @@ SOLID principles are the following:
 - `I` – Interface Segregation Principle (ISP)
 - `D` – Dependency Inversion Principle (DIP)
 
-STUPID code smells we shoud avoid:
+### S.T.U.P.I.D. code smells
 
 - `S` - Singleton
 - `T` - Tight coupling
