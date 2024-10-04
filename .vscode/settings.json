@@ -1,0 +1,6 @@
+{
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "[typescript]": {
+        "editor.tabSize": 2
+    }
+}
