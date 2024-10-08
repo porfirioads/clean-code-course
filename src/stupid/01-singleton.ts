@@ -1,3 +1,8 @@
+/**
+ * Singleton should be avoid as much as possible because they are difficult
+ * to test.
+ */
+
 const Singleton = (function () {
   let instance;
 
@@ -19,7 +24,7 @@ function main() {
   const instance1 = Singleton.getInstance();
   const instance2 = Singleton.getInstance();
 
-  console.log('Misma instancia? ', instance1 === instance2);
+  console.log('Same instance? ', instance1 === instance2);
 }
 
 main();
