@@ -31,7 +31,7 @@ npm run start <FILE_PATH>
 
 - Nunca debería haber más de un motivo por el cual cambiar una clase o módulo.
 - Tener una única responsabilidad !== hacer una única cosa.
-- Detectar violaciones
+- Detectar violaciones:
   - Nombres de clases y módulos demasiados genéricos.
   - Cambios en el código suelen afectar la clase o módulo.
   - La clase involucra múltiples capas.
@@ -43,6 +43,9 @@ npm run start <FILE_PATH>
 
 - Las entidades de software (clases, módulos, métodos, etc.) deben estar abiertas para la extensión, pero cerradas para la modificación.
 - También se puede lograr con herencia, con patrones de diseño de composición, o con strategies.
+- Detectar violaciones:
+  - Los nuevos requerimientos normalmente afectan a clases o módulos.
+  - Una clase o módulo afecta muchas capas (presentación, almacenamiento, etc.).
 
 ### `L` – Liskov Substitution Principle (LSP)
 
