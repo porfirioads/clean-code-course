@@ -16,9 +16,7 @@ Execute project:
 npm run start <FILE_PATH>
 ```
 
-## Information
-
-### S.T.U.P.I.D. code smells
+## S.T.U.P.I.D. code smells
 
 - `S` - Singleton
 - `T` - Tight coupling
@@ -27,10 +25,24 @@ npm run start <FILE_PATH>
 - `I` - Indescriptive naming
 - `D` - Duplication
 
-### S.O.L.I.D. principles
+## S.O.L.I.D. principles
 
-- `S` – Single Responsibility Principle (SRP)
-- `O` – Open/Closed Principle (OCP)
-- `L` – Liskov Substitution Principle (LSP)
-- `I` – Interface Segregation Principle (ISP)
-- `D` – Dependency Inversion Principle (DIP)
+### `S` – Single Responsibility Principle (SRP)
+
+- Nunca debería haber más de un motivo por el cual cambiar una clase o módulo.
+- Tener una única responsabilidad !== hacer una única cosa.
+- Detectar violaciones
+  - Nombres de clases y módulos demasiados genéricos.
+  - Cambios en el código suelen afectar la clase o módulo.
+  - La clase involucra múltiples capas.
+  - Número elevado de importaciones.
+  - Cantidad elevada de métodos públicos.
+  - Excesivo número de líneas de código.
+
+### `O` – Open/Closed Principle (OCP)
+
+### `L` – Liskov Substitution Principle (LSP)
+
+### `I` – Interface Segregation Principle (ISP)
+
+### `D` – Dependency Inversion Principle (DIP)
