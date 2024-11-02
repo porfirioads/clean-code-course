@@ -41,13 +41,22 @@ npm run start <FILE_PATH>
 
 ### `O` – Open/Closed Principle (OCP)
 
-- Las entidades de software (clases, módulos, métodos, etc.) deben estar abiertas para la extensión, pero cerradas para la modificación.
-- También se puede lograr con herencia, con patrones de diseño de composición, o con strategies.
+- Las entidades de software (clases, módulos, métodos, etc.) deben estar 
+  abiertas para la extensión, pero cerradas para la modificación.
+- También se puede lograr con herencia, con patrones de diseño de composición, 
+  o con strategies.
 - Detectar violaciones:
   - Los nuevos requerimientos normalmente afectan a clases o módulos.
   - Una clase o módulo afecta muchas capas (presentación, almacenamiento, etc.).
 
 ### `L` – Liskov Substitution Principle (LSP)
+
+- Las funciones que utilicen punteros o referencias a clases base deben ser 
+  capaces de usar objetos de clases derivadas sin saberlo.
+- Se nombró en honor a Barbara Liskov, que recibió el Turing Award.
+- Siendo U un subtipo de T, cualquier instancia de T debería poder ser
+  sustituída por cualquier instancia de U sin alterar las propiedades del 
+  sistema.
 
 ### `I` – Interface Segregation Principle (ISP)
 
