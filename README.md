@@ -18,14 +18,6 @@ npm run start <FILE_PATH>
 
 ## Information
 
-### S.O.L.I.D. principles
-
-- `S` – Single Responsibility Principle (SRP)
-- `O` – Open/Closed Principle (OCP)
-- `L` – Liskov Substitution Principle (LSP)
-- `I` – Interface Segregation Principle (ISP)
-- `D` – Dependency Inversion Principle (DIP)
-
 ### S.T.U.P.I.D. code smells
 
 - `S` - Singleton
@@ -34,3 +26,11 @@ npm run start <FILE_PATH>
 - `P` - Premature optimization
 - `I` - Indescriptive naming
 - `D` - Duplication
+
+### S.O.L.I.D. principles
+
+- `S` – Single Responsibility Principle (SRP)
+- `O` – Open/Closed Principle (OCP)
+- `L` – Liskov Substitution Principle (LSP)
+- `I` – Interface Segregation Principle (ISP)
+- `D` – Dependency Inversion Principle (DIP)
