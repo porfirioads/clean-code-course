@@ -65,6 +65,24 @@ npm run start <FILE_PATH>
 - Detectar violaciones:
   - Las interfaces nos obligan a violar los principios de responsabilidad única 
     y sustitución de Liskov.
-  
 
 ### `D` – Dependency Inversion Principle (DIP)
+
+- Los módulos de alto nivel no deben depender de módulos de bajo nivel.
+- Ambos deben depender de abstracciones.
+  - Se refiere a clases abstractas o interfaces
+  - El principal motivo por el cual las reglas de negocio o capa de dominio
+    deben depender de abstracciones y no de concreciones es que aumenta su
+    tolerancia al cambio.
+  - Cada cambio en un componente abstracto implica un cambio en su 
+    implementación.
+  - Los cambios en implementaciones concretas, no requieren cambios en las
+    interfaces que implementa.
+  - Inyección de dependencias.
+- Las abstracciones no deben depender de detalles.
+- Los detalles deben depender de abstracciones.
+- Los componentes más importantes son aquellos centrados en resolver el problema
+  subyacente al negocio, es decir, la capa de dominio.
+- Los menos importantes son los que están próximos a la infraestructura, es
+  decir, aquellos relacionados con la UI, la persistencia, la comunicación con
+  APIs externas, etc.
