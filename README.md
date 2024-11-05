@@ -60,4 +60,10 @@ npm run start <FILE_PATH>
 
 ### `I` – Interface Segregation Principle (ISP)
 
+- Los clientes no deberían estar obligados a depender de interfaces que no 
+  utilicen.
+- Detectar violaciones:
+  - Las interfaces que diseñamos nos obligan a violar los principios de
+    responsabilidad única y sustitución de Liskov.  
+
 ### `D` – Dependency Inversion Principle (DIP)
